@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<section id="payment" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="1000" translate="label">
+			<group id="stripe" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+				<label>Credit Card (Stripe)</label>
+				<field id="active" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Enabled</label>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+				<field id="title" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20" translate="label" type="text">
+					<label>Title</label>
+				</field>
+				<field id="payment_action" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Payment Action</label>
+                    <source_model>ManishJoy\StripePayment\Model\Config\Source\PaymentAction</source_model>
+                </field>
+				<field id="order_status" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="40" translate="label" type="select">
+					<label>New Order Status</label>
+					<source_model>ManishJoy\StripePayment\Model\Config\Source\OrderStatus</source_model>
+				</field>
+				<field id="secretkey" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="50" translate="label" type="obscure">
+					<label>Stripe Secret Key</label>
+					<backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
+				</field>
+				<field id="debug" translate="label" type="select" sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Debug</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+				<field id="cctypes" translate="label" type="multiselect" sortOrder="70" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Credit Card Types</label>
+                    <source_model>ManishJoy\StripePayment\Model\Config\Source\Cctype</source_model>
+                </field>
+				<field id="allowspecific" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="80" translate="label" type="allowspecific">
+					<label>Payment from Applicable Countries</label>
+					<source_model>Magento\Payment\Model\Config\Source\Allspecificcountries</source_model>
+				</field>
+				<field id="specificcountry" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="90" translate="label" type="multiselect">
+					<label>Payment from Applicable Countries</label>
+					<source_model>Magento\Directory\Model\Config\Source\Country</source_model>
+					<can_be_empty>1</can_be_empty>
+				</field>
+				<field id="sort_order" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="100" translate="label" type="text">
+					<label>Sort Order</label>
+				</field>
+				<field id="instructions" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="110" translate="label" type="textarea">
+					<label>Instructions</label>
+				</field>
+				<field id="min_order_total" translate="label" type="text" sortOrder="120" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Minimum Order Total</label>
+                </field>
+                <field id="max_order_total" translate="label" type="text" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Maximum Order Total</label>
+                    <comment>Leave empty to disable limit</comment>
+                </field>
+			</group>
+		</section>
+	</system>
+</config>

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<payment>
+			<stripe>
+				<active>1</active>
+				<model>ManishJoy\StripePayment\Model\Payment\Stripe</model>
+				<order_status>pending</order_status>
+				<title>Credit Card (Stripe)</title>
+				<allowspecific>0</allowspecific>
+				<order_status>processing</order_status>
+				<payment_action>authorize_capture</payment_action>
+				<cctypes>AE,VI,MC,DI,JCB</cctypes>
+				<min_order_total>0.00</min_order_total>
+				<sort_order>10</sort_order>
+				<secretkey backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
+			</stripe>
+		</payment>
+	</default>
+</config>
