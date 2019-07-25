@@ -1,9 +1,9 @@
 # ManishJoy_StripePayment v1.0.0
 ## Magento 2 Extension
 
-<img src="https://i.ibb.co/HTSydkJ/Stripe-logo-blue.png" alt="Stripe Payment Gateway" title="Stripe Payment Gateway" />
+<img src="https://i.ibb.co/HTSydkJ/Stripe-logo-blue.png" alt="Stripe Payment Gateway" title="Stripe Payment Gateway" style="max-width:500px" />
 
-### Free magento 2 extension to accept payment for orders via <span>stripe</span>
+### Free magento 2 extension to accept payment for orders via <span style="color: #6772e5;font-family: Arial, Helvetica, sans-serif;">stripe</span>
 
 ## Features:
 1. Easy to use
@@ -17,10 +17,14 @@ ________________________________________________________________________________
 --1--
 
 <img src="https://i.ibb.co/n1fqVq3/Configuration-Settings.png" alt="Module COnfiguration" title="Module COnfiguration">
+___________________________________________________________________________________________________
+
 
 --2--
 
 <img src="https://i.ibb.co/XCzPSQr/Selection-033.png" alt="Payment Form" title="Payment Form">
+
+___________________________________________________________________________________________________
 
 --3--
 
