@@ -16,9 +16,9 @@ ________________________________________________________________________________
 
 --1--
 
-<img src="https://i.ibb.co/n1fqVq3/Configuration-Settings.png" alt="Module COnfiguration" title="Module COnfiguration">
-___________________________________________________________________________________________________
+<img src="https://i.ibb.co/n1fqVq3/Configuration-Settings.png" alt="Module Configuration" title="Module COnfiguration">
 
+___________________________________________________________________________________________________
 
 --2--
 
@@ -41,7 +41,7 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________
 ## Liked my work?
 
-<a href='https://www.patreon.com/manishjoy' target='_blank'><img src='https://i.ibb.co/P6wBYyT/support-on-patreon.png' border='0' alt='SUPPORT ME ON PATREON' /></a>
+<a href='https://www.patreon.com/manishjoy' target='_blank'><img src='https://i.ibb.co/HPPyVxF/patreon.jpg' border='0' alt='SUPPORT ME ON PATREON' /></a>
 
 --- OR ---
 
@@ -67,7 +67,7 @@ ________________________________________________________________________________
 		<td><a href="http://devdocs.magento.com/guides/v2.0/install-gde/prereq/apache.html">Apache</a></td>
 	</tr>
 	<tr>
-		<td>PHP 5.6.x, 7.0.2, 7.0.4 or 7.0.6</td>
+		<td>PHP 5.6.x, 7.1.x</td>
 		<td><code>php -v</code></td>
 		<td><a href="http://devdocs.magento.com/guides/v2.0/install-gde/prereq/php-ubuntu.html">PHP Ubuntu</a><br><a href="http://devdocs.magento.com/guides/v2.0/install-gde/prereq/php-centos.html">PHP CentOS</a></td>
 	</tr>
