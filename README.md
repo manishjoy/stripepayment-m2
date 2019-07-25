@@ -41,7 +41,7 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________
 ## Liked my work?
 
-<a href='https://www.patreon.com/manishjoy' target='_blank'><img src='https://i.ibb.co/rHdTFtj/patreon-btn.jpg' border='0' alt='SUPPORT ME ON PATREON' /></a>
+<a href='https://www.patreon.com/manishjoy' target='_blank'><img src='https://i.ibb.co/rHdTFtj/patreon-btn.jpg' width='200' border='0' alt='SUPPORT ME ON PATREON' /></a>
 
 --- OR ---
 
