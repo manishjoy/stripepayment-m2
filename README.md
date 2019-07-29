@@ -41,13 +41,11 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________
 ## Liked my work?
 
-<a href='https://www.patreon.com/manishjoy' target='_blank'><img src='https://i.ibb.co/rHdTFtj/patreon-btn.jpg' width='200' border='0' alt='SUPPORT ME ON PATREON' /></a>
+<a href="https://www.paypal.me/manishjoy" rel="nofollow"><img height="36" src="https://manishjoy.github.io/img/coffee-btn-image.png" border="0" alt="Buy Me a Coffee" data-canonical-src="https://manishjoy.github.io/img/coffee-btn-image.png" style="max-width:100%;"></a>
 
 --- OR ---
 
-### Donate using Paytm
-
-<img width="300" src="https://image.ibb.co/hp3kUa/IMG_20170706_WA0001.jpg" alt="7042427677" title="Donate using Paytm">
+<a href='https://www.patreon.com/manishjoy' target='_blank'><img src='https://i.ibb.co/rHdTFtj/patreon-btn.jpg' width='200' border='0' alt='SUPPORT ME ON PATREON' /></a>
 
 ___________________________________________________________________________________________________
 ## Prerequisites
