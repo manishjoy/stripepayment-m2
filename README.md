@@ -26,7 +26,7 @@ ________________________________________________________________________________
 3. Enter following commands to enable module:
 
     ```bash
-    php bin/magento module:enable Inchoo_Stripe --clear-static-content
+    php bin/magento module:enable ManishJoy_StripePayment --clear-static-content
     php bin/magento setup:upgrade
     ```
 4. Enable and configure Stripe in Magento Admin under **Stores/Configuration/Payment Methods/Credit Card (Stripe)**
