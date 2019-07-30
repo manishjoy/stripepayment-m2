@@ -18,8 +18,8 @@ ________________________________________________________________________________
 2. Enter following commands to install module:
 
     ```bash
-    composer config repositories.inchoostripe git https://github.com/Inchoo/magento2-Inchoo_Stripe.git
-    composer require inchoo/stripe:dev-master
+    composer config repositories.manishjoystripe git https://github.com/manishjoy/stripepayment-m2.git
+    composer require manishjoy/module-stripepayment:dev-master
     ```
    Wait while dependencies are updated.
 
